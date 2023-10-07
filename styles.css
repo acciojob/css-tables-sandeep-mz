@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+/* Style for td and th elements */
+td, th {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 0.5rem; 
+}
+
+/* Style for odd rows */
+tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+/* Style for even rows */
+tr:nth-child(even) {
+    background-color: #ffffff; 
+}
